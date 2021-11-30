@@ -1,0 +1,95 @@
+#Christmas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 3vw;
+}
+
+body {
+  background-color: #81FFF6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Calender {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.Calender img {
+  width: 40%;
+}
+
+.text {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  font-size: 1vw;
+}
+
+.Snow {
+  border-radius: 50%;
+  opacity: 0.8;
+  width: 1.5rem;
+  height: 1.5rem;
+  -webkit-box-shadow: 57vw 30vh 0 -0.02rem#fff,88.1vw 52.6vh 0 -0.06rem#fff,46.1vw 73.3vh 0 -0.19rem#fff,27.7vw 56.3vh 0 -0.41rem#fff,38.8vw 34.7vh 0 -0.04rem#fff,20.8vw 7.1vh 0 -0.14rem#fff,44.5vw 24.3vh 0 -0.42rem#fff,0.9vw 88.2vh 0 -0.36rem#fff,95vw 81.6vh 0 -0.44rem#fff,87.1vw 13.4vh 0 -0.49rem#fff,55.8vw 21.7vh 0 -0.06rem#fff,13.9vw 6.7vh 0 -0.12rem#fff,86.5vw 49.3vh 0 -0.11rem#fff,66.3vw 38.8vh 0 -0.07rem#fff,14.1vw 30.3vh 0 -0.24rem#fff,46.8vw 99.2vh 0 -0.05rem#fff,5.8vw 93.2vh 0 -0.22rem#fff,86.9vw 93.6vh 0 -0.16rem#fff,25.5vw 23.2vh 0 -0.35rem#fff,58.8vw 49.2vh 0 -0.27rem#fff,15.9vw 30.1vh 0 -0.28rem#fff,79.9vw 25.7vh 0 -0.25rem#fff,54.8vw 77.3vh 0 -0.01rem#fff,30.4vw 23.4vh 0 -0.39rem#fff,75.7vw 54.9vh 0 -0.19rem#fff,70.5vw 62.6vh 0 -0.21rem#fff,1.7vw 85.7vh 0 -0.26rem#fff,0.7vw 10.2vh 0 -0.08rem#fff,17.5vw 67vh 0 -0.07rem#fff,21.3vw 29.9vh 0 -0.49rem#fff,37.3vw 34.6vh 0 -0.16rem#fff,4.9vw 81.6vh 0 -0.48rem#fff,88.9vw 68.1vh 0 -0.16rem#fff,51.3vw 52.4vh 0 -0.24rem#fff,73.2vw 7.4vh 0 -0.08rem#fff,39.4vw 40.4vh 0 -0.32rem#fff,19.9vw 99.8vh 0 -0.19rem#fff,71.6vw 28vh 0 -0.11rem#fff,32vw 48.2vh 0 -0.34rem#fff,98.8vw 19.6vh 0 -0.13rem#fff,92vw 75.5vh 0 -0.39rem#fff,36.5vw 87.8vh 0 -0.41rem#fff,18.7vw 62.5vh 0 -0.46rem#fff,43.5vw 48.3vh 0 -0.43rem#fff,96.7vw 76.8vh 0 -0.24rem#fff,31vw 30.5vh 0 -0.03rem#fff,67.6vw 42.7vh 0 -0.16rem#fff,84.1vw 13.1vh 0 -0.03rem#fff,67.4vw 4.2vh 0 -0.04rem#fff,30.3vw 12vh 0 -0.47rem#fff,52vw 76.7vh 0 -0.43rem#fff,21.5vw 83.8vh 0 -0.08rem#fff,2vw 18.2vh 0 -0.09rem#fff,90.1vw 10.2vh 0 -0.15rem#fff,37.5vw 60.6vh 0 -0.39rem#fff,87.8vw 10.9vh 0 -0.27rem#fff,4.7vw 47vh 0 -0.32rem#fff,25.7vw 1.2vh 0 -0.5rem#fff,71.2vw 77.2vh 0 -0.41rem#fff,36.8vw 92.5vh 0 -0.22rem#fff,45.8vw 2.1vh 0 -0.02rem#fff,8.9vw 13.3vh 0 -0.49rem#fff,73.1vw 16.7vh 0 -0.23rem#fff,66.5vw 24.9vh 0 -0.3rem#fff,30.2vw 99.6vh 0 -0.47rem#fff,77.5vw 8.8vh 0 -0.08rem#fff,47.7vw 45.3vh 0 -0.35rem#fff,14.3vw 92.9vh 0 -0.19rem#fff,79.7vw 20vh 0 -0.28rem#fff,29.2vw 53.7vh 0 -0.29rem#fff,49vw 33.5vh 0 -0.11rem#fff,95.2vw 22.2vh 0 -0.04rem#fff,59vw 62.3vh 0 -0.42rem#fff,55.6vw 79.6vh 0 -0.01rem#fff,78.6vw 19.1vh 0 -0.33rem#fff,32.1vw 38.7vh 0 -0.05rem#fff,51.1vw 84.8vh 0 -0.33rem#fff,96.8vw 92.2vh 0 -0.24rem#fff,69.8vw 49vh 0 -0.38rem#fff,42.4vw 81.4vh 0 -0.46rem#fff,41.1vw 86.2vh 0 -0.29rem#fff,60.9vw 81vh 0 -0.01rem#fff,11.8vw 71.5vh 0 -0.25rem#fff,92.8vw 22.7vh 0 -0.02rem#fff,73.2vw 52vh 0 -0.4rem#fff,97.5vw 44.3vh 0 -0.41rem#fff,27.7vw 27.5vh 0 -0.05rem#fff,89.3vw 20.3vh 0 -0.33rem#fff,39.4vw 9.2vh 0 -0.15rem#fff,19vw 7vh 0 -0.26rem#fff,97.1vw 97.2vh 0 -0.11rem#fff,56.5vw 48.1vh 0 -0.08rem#fff,24.6vw 5.8vh 0 -0.37rem#fff,6.3vw 96.3vh 0 -0.5rem#fff,64.6vw 96.6vh 0 -0.05rem#fff,95vw 20.4vh 0 -0.2rem#fff,5.3vw 58.9vh 0 -0.11rem#fff,73vw 5.8vh 0 -0.35rem#fff,90.1vw 99.2vh 0 -0.18rem#fff,61.8vw 2.7vh 0 -0.11rem#fff;
+          box-shadow: 57vw 30vh 0 -0.02rem#fff,88.1vw 52.6vh 0 -0.06rem#fff,46.1vw 73.3vh 0 -0.19rem#fff,27.7vw 56.3vh 0 -0.41rem#fff,38.8vw 34.7vh 0 -0.04rem#fff,20.8vw 7.1vh 0 -0.14rem#fff,44.5vw 24.3vh 0 -0.42rem#fff,0.9vw 88.2vh 0 -0.36rem#fff,95vw 81.6vh 0 -0.44rem#fff,87.1vw 13.4vh 0 -0.49rem#fff,55.8vw 21.7vh 0 -0.06rem#fff,13.9vw 6.7vh 0 -0.12rem#fff,86.5vw 49.3vh 0 -0.11rem#fff,66.3vw 38.8vh 0 -0.07rem#fff,14.1vw 30.3vh 0 -0.24rem#fff,46.8vw 99.2vh 0 -0.05rem#fff,5.8vw 93.2vh 0 -0.22rem#fff,86.9vw 93.6vh 0 -0.16rem#fff,25.5vw 23.2vh 0 -0.35rem#fff,58.8vw 49.2vh 0 -0.27rem#fff,15.9vw 30.1vh 0 -0.28rem#fff,79.9vw 25.7vh 0 -0.25rem#fff,54.8vw 77.3vh 0 -0.01rem#fff,30.4vw 23.4vh 0 -0.39rem#fff,75.7vw 54.9vh 0 -0.19rem#fff,70.5vw 62.6vh 0 -0.21rem#fff,1.7vw 85.7vh 0 -0.26rem#fff,0.7vw 10.2vh 0 -0.08rem#fff,17.5vw 67vh 0 -0.07rem#fff,21.3vw 29.9vh 0 -0.49rem#fff,37.3vw 34.6vh 0 -0.16rem#fff,4.9vw 81.6vh 0 -0.48rem#fff,88.9vw 68.1vh 0 -0.16rem#fff,51.3vw 52.4vh 0 -0.24rem#fff,73.2vw 7.4vh 0 -0.08rem#fff,39.4vw 40.4vh 0 -0.32rem#fff,19.9vw 99.8vh 0 -0.19rem#fff,71.6vw 28vh 0 -0.11rem#fff,32vw 48.2vh 0 -0.34rem#fff,98.8vw 19.6vh 0 -0.13rem#fff,92vw 75.5vh 0 -0.39rem#fff,36.5vw 87.8vh 0 -0.41rem#fff,18.7vw 62.5vh 0 -0.46rem#fff,43.5vw 48.3vh 0 -0.43rem#fff,96.7vw 76.8vh 0 -0.24rem#fff,31vw 30.5vh 0 -0.03rem#fff,67.6vw 42.7vh 0 -0.16rem#fff,84.1vw 13.1vh 0 -0.03rem#fff,67.4vw 4.2vh 0 -0.04rem#fff,30.3vw 12vh 0 -0.47rem#fff,52vw 76.7vh 0 -0.43rem#fff,21.5vw 83.8vh 0 -0.08rem#fff,2vw 18.2vh 0 -0.09rem#fff,90.1vw 10.2vh 0 -0.15rem#fff,37.5vw 60.6vh 0 -0.39rem#fff,87.8vw 10.9vh 0 -0.27rem#fff,4.7vw 47vh 0 -0.32rem#fff,25.7vw 1.2vh 0 -0.5rem#fff,71.2vw 77.2vh 0 -0.41rem#fff,36.8vw 92.5vh 0 -0.22rem#fff,45.8vw 2.1vh 0 -0.02rem#fff,8.9vw 13.3vh 0 -0.49rem#fff,73.1vw 16.7vh 0 -0.23rem#fff,66.5vw 24.9vh 0 -0.3rem#fff,30.2vw 99.6vh 0 -0.47rem#fff,77.5vw 8.8vh 0 -0.08rem#fff,47.7vw 45.3vh 0 -0.35rem#fff,14.3vw 92.9vh 0 -0.19rem#fff,79.7vw 20vh 0 -0.28rem#fff,29.2vw 53.7vh 0 -0.29rem#fff,49vw 33.5vh 0 -0.11rem#fff,95.2vw 22.2vh 0 -0.04rem#fff,59vw 62.3vh 0 -0.42rem#fff,55.6vw 79.6vh 0 -0.01rem#fff,78.6vw 19.1vh 0 -0.33rem#fff,32.1vw 38.7vh 0 -0.05rem#fff,51.1vw 84.8vh 0 -0.33rem#fff,96.8vw 92.2vh 0 -0.24rem#fff,69.8vw 49vh 0 -0.38rem#fff,42.4vw 81.4vh 0 -0.46rem#fff,41.1vw 86.2vh 0 -0.29rem#fff,60.9vw 81vh 0 -0.01rem#fff,11.8vw 71.5vh 0 -0.25rem#fff,92.8vw 22.7vh 0 -0.02rem#fff,73.2vw 52vh 0 -0.4rem#fff,97.5vw 44.3vh 0 -0.41rem#fff,27.7vw 27.5vh 0 -0.05rem#fff,89.3vw 20.3vh 0 -0.33rem#fff,39.4vw 9.2vh 0 -0.15rem#fff,19vw 7vh 0 -0.26rem#fff,97.1vw 97.2vh 0 -0.11rem#fff,56.5vw 48.1vh 0 -0.08rem#fff,24.6vw 5.8vh 0 -0.37rem#fff,6.3vw 96.3vh 0 -0.5rem#fff,64.6vw 96.6vh 0 -0.05rem#fff,95vw 20.4vh 0 -0.2rem#fff,5.3vw 58.9vh 0 -0.11rem#fff,73vw 5.8vh 0 -0.35rem#fff,90.1vw 99.2vh 0 -0.18rem#fff,61.8vw 2.7vh 0 -0.11rem#fff;
+  position: fixed;
+  top: -100vh;
+  -webkit-animation-name: fall;
+          animation-name: fall;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+}
+
+.Snow.a {
+  -webkit-animation-delay: -3s;
+          animation-delay: -3s;
+}
+
+@-webkit-keyframes fall {
+  100% {
+    -webkit-transform: translateY(200vh);
+            transform: translateY(200vh);
+  }
+}
+
+@keyframes fall {
+  100% {
+    -webkit-transform: translateY(200vh);
+            transform: translateY(200vh);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #Christmas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 7vw;
+  }
+  .Calender img {
+    width: 70%;
+  }
+  .text {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    font-size: 2vw;
+  }
+}
+/*# sourceMappingURL=main.css.map */

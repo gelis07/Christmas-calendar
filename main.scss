@@ -1,0 +1,65 @@
+#Christmas{
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+}
+body{
+    background-color: #81FFF6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Calender{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.Calender img{
+    width: 40%;
+}
+.text{
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    font-size: 1vw;
+}
+$s1:"";
+@for $i from 1 through 100 {
+    $s1: $s1 + random(1000)*0.1vw + " " + random(1000)*0.1vh + " " + 0 + " " + random(50)*-0.01rem + #fff;
+    @if $i < 100 {
+        $s1: $s1 + ",";
+    }
+}
+.Snow{
+    border-radius: 50%;
+    opacity: 0.8;
+    width: 1.5rem;
+    height: 1.5rem;
+    box-shadow: #{$s1};
+    position: fixed;
+    top: -100vh;
+    animation-name: fall;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+.Snow.a{
+    animation-delay: -3s;
+}
+@keyframes fall{
+    100% {transform: translateY(200vh);}
+}
+@media only screen and (max-width: 1000px) {
+    #Christmas{
+        display: flex;
+        justify-content: center;
+        font-size: 7vw;
+    }
+    .Calender img{
+        width: 70%;
+    }
+    .text{
+        position: absolute;
+        margin: auto;
+        top: 50%;
+        font-size: 2vw;
+    }
+}
