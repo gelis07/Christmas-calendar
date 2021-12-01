@@ -20,6 +20,7 @@ body{
     margin: auto;
     top: 50%;
     font-size: 1vw;
+    margin-top: -50px;
 }
 $s1:"";
 @for $i from 1 through 100 {
@@ -61,5 +62,6 @@ $s1:"";
         margin: auto;
         top: 50%;
         font-size: 2vw;
+        margin-top: -50px;
     }
 }
