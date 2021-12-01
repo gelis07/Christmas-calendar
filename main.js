@@ -11,5 +11,5 @@ var oneDay = 1000 * 60 * 60 * 24;
 var day = Math.floor(diff / oneDay)
 var daysLeft = 359 - day;
 document.getElementById("date").innerHTML = "Today: " + date;
-document.getElementById("daysLeft").innerHTML = "Days left: " + daysLeft + "  " + ChristmasDay;
+document.getElementById("daysLeft").innerHTML = "Days left: " + daysLeft;
 document.getElementById("ChristmasDate").innerHTML = "Christmas: " + Christmas.getDate() +"/"+(Christmas.getMonth()+1)+"/"+Christmas.getFullYear()+"  " + ChristmasDay;
