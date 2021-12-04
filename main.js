@@ -18,7 +18,6 @@ for (let i = 0; i < daysLeft; i++) {
     console.log(currentDateName)
     if(currentDateName == "Monday" || currentDateName == "Tuesday" || currentDateName == "Wednesday" || currentDateName == "Thursday" || currentDateName == "Friday"){
         BussinessDays += 1;
-        console.log(i);
     }
 } 
 document.getElementById("date").innerHTML = "Today: " + date;
