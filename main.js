@@ -22,5 +22,5 @@ for (let i = 0; i < daysLeft; i++) {
 } 
 document.getElementById("date").innerHTML = "Today: " + date;
 document.getElementById("daysLeft").innerHTML = "Days left: " + daysLeft;
-document.getElementById("BdaysLeft").innerHTML = "Bussiness Days left: " + (BussinessDays - 1);
+document.getElementById("BdaysLeft").innerHTML = "Business Days left: " + (BussinessDays - 1);
 document.getElementById("ChristmasDate").innerHTML = "Christmas: " + Christmas.getDate() +"/"+(Christmas.getMonth()+1)+"/"+Christmas.getFullYear()+"  " + ChristmasDay;
